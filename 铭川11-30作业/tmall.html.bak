@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<title>MyTmall</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		body{
+			margin:0;
+			padding:0;
+			background-color:#f0f0f0;
+		}
+		.content{
+			font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
+			margin-left:auto;
+			margin-right:auto;
+			margin-top:100px;
+			width:1236px;
+			height:370px;
+		}
+		.content .first{
+			margin-right:16px;
+			padding:0;
+			height:370px;
+			float:left;
+			border-style: solid;
+			border-width: 1px;
+			border-color: #ffffff;
+		}
+		.content .center{
+			margin-right:16px;
+			padding:0;
+			height:370px;
+			float:left;
+			border-style: solid;
+			border-width: 1px;
+			border-color: #ffffff;
+		}
+		.content .last{
+			margin:0;
+			padding:0;
+			height:370px;
+			float:left;
+			border-style: solid;
+			border-width: 1px;
+			border-color: #ffffff;
+		}
+		.head{
+			height: 54px;
+			background: #fff;
+			font-size: 0;
+			border-style: solid;
+			border-width: 0 0 1px;
+			border-color: #eee;
+			position:relative;
+		}
+		img{
+			height:316px;
+			border:none;
+			vertical-align: middle
+		}
+		img:hover{
+			opacity: .6;
+			transition-duration: 0s;
+		}
+		.first:hover{
+			border-style: solid;
+			border-width: 1px;
+			border-color: #ff0000;
+		}
+		.center:hover{
+			border-style: solid;
+			border-width: 1px;
+			border-color: #ff0000;
+		}
+		.last:hover{
+			border-style: solid;
+			border-width: 1px;
+			border-color: #ff0000;
+		}
+		.cn{
+			display: inline-block;
+			font-size: 18px;
+			font-weight: 700;
+			color: #333;
+			line-height: 54px;
+			height: 18px;
+			margin-left: 10px;
+		}
+		.en{
+			display: inline-block;
+			font-size: 14px;
+			font-weight: 700;
+			color: #333;
+			margin-left: 10px;
+			line-height: 24px;
+			height: 44px;
+		}
+		.more{
+			position: absolute;
+			right: 14px;
+			top: 0;
+			width: 42px;
+			height: 54px;
+			z-index: 99;
+			line-height: 54px;
+			background-size: 18px 18px;
+			background-image: url(images/4.png);
+			background-repeat: no-repeat;
+			background-position: right center;
+			padding-right: 14px;
+			font-size: 16px;
+			color: #666;
+			overflow: hidden;
+		}
+		a{
+			outline:0;
+			text-decoration:none;
+		}
+		
+	</style>
+	</head>
+	<body>
+		<div class="content">
+			<div class="first">
+				<div class="head">
+					<span class="cn">品牌闪购</span>
+					<span class="en">BRAND SALE</span>
+					<a class="more" href="##"> </a>
+				</div>
+				<a class="body" id="first_body" href="##">
+					<img src="images/1.jpg">
+				</a>
+			</div>
+			<div class="center">
+				<div class="head">
+					<span class="cn">聚名品</span>
+					<span class="en">LUXURY CHANNEL</span>
+					<a class="more" href="##">更多</a>
+				</div>
+				<a class="body" id="center_body" href="##">
+					<img src="images/2.jpg" href="##">
+				</a>
+			</div>
+			<div class="last">
+				<div class="head">
+					<span class="cn">品牌活动</span>
+					<span class="en">BRAND ACTIVITY</span>
+					<a class="more" href="##">更多</a>
+				</div>
+				<a class="body" id="last_body" href="##">
+					<img src="images/3.jpg" href="##">
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
