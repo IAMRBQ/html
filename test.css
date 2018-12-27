@@ -1,0 +1,128 @@
+@charset="utf-8"
+*{
+	display:block;
+	margin:0;
+	padding:0;
+}
+.content{
+	display:block;	
+	width:960px;
+	padding-top:70px;
+	padding-bottom:250px;
+	margin:0px auto;
+}
+.content .head{
+	display:block;
+	background:#fff;
+	height:100px;
+	width:960px;
+	border:solid 1px #e0e0e0;
+	border-radius:3px;
+	margin-bottom:10px;
+}
+.content .head .prefile-level{
+	display:block;
+	width: 10px;
+    height: 100px;
+    float: left;
+	background: #25bb9b;
+}
+.content .head .head-info{
+	float:left;
+	display:block;
+	width:508px;
+	height:76px;
+	padding-top:20px;
+	padding-left:20px;
+	float:left;
+}
+.head-pic{
+	float:left;
+	margin-right:10px
+	display:block;
+	height:60px;
+	width:60px;
+}
+.info-content{
+	height:76px;
+	width:508px;
+	display:block;
+	margin-left: 80px;
+    padding-top: 5px;
+}
+.name{
+	overflow:hidden;
+	font-size:14px;
+	vertical-align:middle;
+	line-height:1;
+}
+.info-list{
+	display:block;
+	list-style:none;
+	padding:0;
+}
+.info-list li{
+	float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+	font-size:14px;
+}
+.under-box{
+	width:960px;
+	display:block;
+}
+.module-box{
+	float:left;
+	width:260px;
+	display:block;
+	border:1px solid #e0e0e0;
+	border-radius:3px;
+}
+.module-box .menu li{
+	line-height:40px;
+	font-size:14px;
+}
+.menu{
+	text-align:middle;
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.iframe-box{
+	float:right;
+	width:690px;
+	height:800px;
+	display:block;
+	border:1px solid #e0e0e0;
+	border-radius:3px;
+}
+.iframe{
+	width:100%;
+	height:100%;
+}
+a{
+	display:block;
+	text-decoration: none;
+	color: #333;
+}
+.module-box .menu li:hover{
+	background:#e0e0e0;
+}
+.pro-info-icon{
+	margin-left:20px;
+	margin-right:25px;
+	background:url(images/1.png) 0px -358px no-repeat;
+	height:20px;
+	width:20px;
+	display:inline-block;
+	vertical-align:middle;
+}
+.project-info-icon{
+	margin-left:20px;
+	margin-right:25px;
+	background:url(images/1.png) 0px -120px no-repeat;
+	height:20px;
+	width:20px;
+	display:inline-block;
+	vertical-align:middle;
+}
